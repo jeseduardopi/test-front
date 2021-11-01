@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react'
-import Data from '../config/characters'
-import './Home.css'
-import Card from './Card'
-import HeroesList from './HeroesList'
-import { FaSistrix as SearchIcon } from 'react-icons/fa'
+import React, { useState, useEffect } from 'react';
+import Data from '../config/characters';
+import './Home.css';
+import Card from './Card';
+import HeroesList from './HeroesList';
+import { FaSistrix as SearchIcon } from 'react-icons/fa';
 
 function Home() {
 
@@ -131,4 +131,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
