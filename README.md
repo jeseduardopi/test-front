@@ -1,4 +1,4 @@
-# Test de développeur front-end chez Pretto
+# Mon test technique frontend chez Pretto
 
 Ce test a pour but d'évaluer votre niveau en développement front-end, React en particulier. À titre indicatif, un développeur expérimenté met environ 2h pour réaliser cet exercice. Essayez d'aller le plus loin possible dans l'exercice dans un délai raisonnable.
 

@@ -20,13 +20,11 @@ function Home() {
     setTimeout(() => {
        getData();
     }, 1500)
-   
   }, [])
 
   const getData = () => { 
     setIsPending(false);
     return setHeroes(Data);
-   
   }
  
 // ~~~~~~~~~~   ADD TO THE LIST~~~~~~~~~ //
