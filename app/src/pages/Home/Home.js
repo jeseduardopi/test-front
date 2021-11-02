@@ -7,6 +7,10 @@ import { Button, Container, Grid } from '@material-ui/core';
 import { useStyles } from '../../hooks/useStyles';
 import './Home.css';
 
+import GridBase from "@material-ui/core/Grid";
+
+
+
 function Home() {
   const [heroes, setHeroes] = useState()
   const [selectedHeroes, setSelectedHeroes] = useState([])

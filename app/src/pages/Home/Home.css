@@ -7,9 +7,20 @@ h1 {
 }
 
 header {
-  margin-left:45px;
+  margin-left:20px;
   margin-bottom: 40px;
 }
+
+body .MuiGrid-spacing-xs-2 {
+  width:calc(80% + 10px);
+  margin: 20px;
+}
+
+body .MuiGrid-item {
+  margin: 0 0 0 -50px;
+  box-sizing: border-box;
+}
+
 body {
   margin: 2rem;
   font: 12px system-ui;
@@ -118,7 +129,11 @@ header .input {
     width: 450px;
   }
   header{
-    margin-left:110px;
+    margin-left:85px;
+  }
+  body .MuiGrid-item {
+    margin: 0;
+    box-sizing: border-box;
   }
 }
 
@@ -127,7 +142,7 @@ header .input {
     width: 450px;
   }
    header{
-    margin-left:60px;
+    margin-left:70px;
   }
 }
 
@@ -136,8 +151,20 @@ header .input {
     width: 600px;
   }
   header{
-    margin-left: 35px;
+    margin-left: 96px;
   }
 }
 
 
+
+body .MuiGrid-spacing-xs-2 {
+  /* width: 50px; */
+  margin: 50px;
+  width:calc(70% + 100px);
+}
+@media (min-width:1280px) {
+body .MuiGrid-spacing-xs-2 {
+  width:calc(80% + 80px);
+  margin: 0 auto;
+}
+}
