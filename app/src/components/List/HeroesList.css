@@ -1,0 +1,14 @@
+.list{ 
+    display: inline;
+}
+
+.heroes{
+    font-weight: 900;
+}
+
+.list, .heroes{
+    font-size: 1rem;
+}
+
+
+

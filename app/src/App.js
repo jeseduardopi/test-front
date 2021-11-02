@@ -1,5 +1,5 @@
-import React from 'react'
-import Home from './components/Home'
+import React from 'react';
+import Home from './pages/Home/Home';
 
 function App() {
     return (
@@ -8,6 +8,6 @@ function App() {
             
         </div>
     )
-}
+};
 
-export default App
+export default App;

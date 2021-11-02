@@ -1,0 +1,81 @@
+body .MuiTypography-h3 {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.167;
+    letter-spacing: 0em;
+}
+
+body .MuiTypography-paragraph {  
+   font-size: 1rem; 
+    font-weight: 400;
+   margin-top: 20px;
+   
+}
+
+body .MuiCardContent-root {
+  padding: 8px;
+}
+
+button {
+  color: whitesmoke;
+  border: 0px;
+  border-radius: 8px;
+  padding: 24px;
+  height: 64px;
+  cursor: pointer;
+}
+
+/* ~~~~~~~~~~~~~~ SCROLL BAR ~~~~~~~~~~~~~ */
+
+::-webkit-scrollbar {
+  width: 1em;
+ 
+}
+::-webkit-scrollbar-track {
+  margin-top: 1em;
+}
+::-webkit-scrollbar-thumb {
+  background: hsla(0, 0%, 2%, 0.2);
+  border-radius: 5rem;
+
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsla(0, 1%, 70%, 0.2);
+  border-radius: 5rem;
+}
+
+/* mozilla support */
+@supports (scrollbar-color: red blue) {
+  * {
+    scrollbar-color: hsla(0, 0%, 2%, 0.2) hsl(0, 0%, 99.2%);
+    scrollbar-width: auto;
+    border-radius: 5px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~ SCROLL CONTAINER ~~~~~~~~~~~~~ */
+
+.text-grey {
+  color: #8c8c8c;
+}
+
+.scroll-card button {
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 325.33px;
+  }
+}
+
+/* reset material ui */
+body .MuiButton-root{
+	transition: unset;
+  }
+
