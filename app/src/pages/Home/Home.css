@@ -7,6 +7,7 @@ h1 {
 }
 
 header {
+  margin-left:100px;
   margin-bottom: 40px;
 }
 body {
@@ -118,11 +119,17 @@ header .input {
   .search_wrap .search_box {
     width: 450px;
   }
+  header{
+    margin-left: 50px;
+  }
 }
 
 @media (min-width:1270px) {
   .search_wrap .search_box {
     width: 600px;
+  }
+  header{
+    margin-left: 40px;
   }
 }
 

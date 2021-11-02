@@ -17,6 +17,10 @@ const useStyles = makeStyles({
     bgvert: {
       backgroundColor: '#0c806b',
     },
+    justify:{
+      justifyContent: 'center',
+      display: 'flex'
+    },
     bgwhite: {
       backgroundColor: '#ffffff',
     },

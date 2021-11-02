@@ -15,7 +15,7 @@ function Home() {
   const [isPending, setIsPending] = useState(true)
 
   const classes = useStyles();
-  const { btn, btnSalmon, btnBlack, btnClear, btnValid } = classes;
+  const { btn, btnSalmon, btnBlack, btnClear, btnValid, justify } = classes;
 
   // ~~~~~~~ RECUPERATION DES DONNEES ~~~~~~ //
   useEffect(() => {
@@ -125,7 +125,7 @@ function Home() {
               }
             })
             .map(hero => (
-              <Grid item key={hero.id} xs={12} md={6} lg={4}>
+              <Grid item key={hero.id} xs={12} md={6} lg={4} className={justify}>
                 <HeroCard
                   onAdd={onAdd}
                   onRemove={onRemove}
