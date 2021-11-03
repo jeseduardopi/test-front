@@ -1,4 +1,4 @@
-# Mon test technique frontend chez Pretto
+
 ![alt text](https://github.com/jeseduardopi/test-front/blob/master/app/src/assets/PRETTO.png?raw=true)
 
 # MY TECHNICAL TEST WITH PRETTO
